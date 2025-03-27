@@ -51,7 +51,7 @@
             const rating = document.getElementById('rating').value;
             const lastPayment = localStorage.getItem('lastPayment');
             if (lastPayment) {
-                alert('You rated the $' + lastPayment + ' payment with ' + rating + ' stars');
+                alert('You rated the £' + lastPayment + ' payment with ' + rating + ' stars');
                 localStorage.removeItem('lastPayment');
             } else {
                 alert('No recent payment found to rate.');
